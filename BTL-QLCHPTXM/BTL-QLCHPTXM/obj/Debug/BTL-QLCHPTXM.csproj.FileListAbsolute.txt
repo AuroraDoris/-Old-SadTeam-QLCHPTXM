@@ -10,3 +10,6 @@ C:\Users\Eric\Desktop\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.pdb
 C:\Users\Eric\Desktop\AuroraDoris\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\bin\Debug\BTL-QLCHPTXM.exe.config
 C:\Users\Eric\Desktop\AuroraDoris\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.exe
 C:\Users\Eric\Desktop\AuroraDoris\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.pdb
+C:\Users\Dell-Pc\Desktop\Phuc\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\bin\Debug\BTL-QLCHPTXM.exe.config
+C:\Users\Dell-Pc\Desktop\Phuc\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.exe
+C:\Users\Dell-Pc\Desktop\Phuc\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.pdb
