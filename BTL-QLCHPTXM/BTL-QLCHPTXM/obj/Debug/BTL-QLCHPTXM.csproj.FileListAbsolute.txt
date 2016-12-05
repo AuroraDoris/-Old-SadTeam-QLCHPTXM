@@ -7,3 +7,6 @@ C:\Users\Eric\Desktop\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL_QLCHPTXM.Propertie
 C:\Users\Eric\Desktop\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.csproj.GenerateResource.Cache
 C:\Users\Eric\Desktop\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.exe
 C:\Users\Eric\Desktop\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.pdb
+C:\Users\Eric\Desktop\AuroraDoris\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\bin\Debug\BTL-QLCHPTXM.exe.config
+C:\Users\Eric\Desktop\AuroraDoris\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.exe
+C:\Users\Eric\Desktop\AuroraDoris\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.pdb
