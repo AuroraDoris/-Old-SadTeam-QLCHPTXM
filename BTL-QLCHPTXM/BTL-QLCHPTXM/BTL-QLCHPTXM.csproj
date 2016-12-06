@@ -45,6 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectToSQL.cs" />
+    <Compile Include="frmKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhachHang.Designer.cs">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLoaiXe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,11 +63,17 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="KhachHangClass.cs" />
+    <Compile Include="KhachHangControl.cs" />
+    <Compile Include="KhachHangModify.cs" />
     <Compile Include="LoaiXeClass.cs" />
     <Compile Include="LoaiXeControl.cs" />
     <Compile Include="LoaiXeModify.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmKhachHang.resx">
+      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLoaiXe.resx">
       <DependentUpon>frmLoaiXe.cs</DependentUpon>
     </EmbeddedResource>
