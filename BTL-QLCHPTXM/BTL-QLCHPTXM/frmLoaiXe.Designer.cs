@@ -37,6 +37,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtLoai = new System.Windows.Forms.TextBox();
             this.txtTenThuongGoi = new System.Windows.Forms.TextBox();
             this.txtNguonNhap = new System.Windows.Forms.TextBox();
             this.txtNamSanXuat = new System.Windows.Forms.TextBox();
@@ -59,7 +60,6 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dgvLoaiXe = new System.Windows.Forms.DataGridView();
-            this.cbbLoai = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.ptbLoaiXe)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -83,7 +83,6 @@
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.cbbLoai);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
@@ -91,6 +90,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.txtLoai);
             this.groupBox1.Controls.Add(this.txtTenThuongGoi);
             this.groupBox1.Controls.Add(this.txtNguonNhap);
             this.groupBox1.Controls.Add(this.txtNamSanXuat);
@@ -167,6 +167,14 @@
             this.label1.Size = new System.Drawing.Size(79, 20);
             this.label1.TabIndex = 4;
             this.label1.Text = "Mã loại xe";
+            // 
+            // txtLoai
+            // 
+            this.txtLoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLoai.Location = new System.Drawing.Point(135, 127);
+            this.txtLoai.Name = "txtLoai";
+            this.txtLoai.Size = new System.Drawing.Size(189, 26);
+            this.txtLoai.TabIndex = 3;
             // 
             // txtTenThuongGoi
             // 
@@ -303,6 +311,7 @@
             this.btnThem.TabIndex = 5;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnHuy
             // 
@@ -314,6 +323,7 @@
             this.btnHuy.TabIndex = 5;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = true;
+            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // btnXoa
             // 
@@ -325,6 +335,7 @@
             this.btnXoa.TabIndex = 5;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnLuu
             // 
@@ -336,6 +347,7 @@
             this.btnLuu.TabIndex = 5;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnThoat
             // 
@@ -347,6 +359,7 @@
             this.btnThoat.TabIndex = 5;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // groupBox3
             // 
@@ -372,6 +385,7 @@
             this.btnSua.TabIndex = 5;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox5
             // 
@@ -393,14 +407,6 @@
             this.dgvLoaiXe.Size = new System.Drawing.Size(349, 353);
             this.dgvLoaiXe.TabIndex = 0;
             // 
-            // cbbLoai
-            // 
-            this.cbbLoai.FormattingEnabled = true;
-            this.cbbLoai.Location = new System.Drawing.Point(135, 125);
-            this.cbbLoai.Name = "cbbLoai";
-            this.cbbLoai.Size = new System.Drawing.Size(189, 28);
-            this.cbbLoai.TabIndex = 5;
-            // 
             // frmLoaiXe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -413,6 +419,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmLoaiXe";
             this.Text = "Loại xe";
+            this.Load += new System.EventHandler(this.frmLoaiXe_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptbLoaiXe)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -430,6 +437,7 @@
 
         private System.Windows.Forms.PictureBox ptbLoaiXe;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox txtLoai;
         private System.Windows.Forms.TextBox txtTenThuongGoi;
         private System.Windows.Forms.TextBox txtNguonNhap;
         private System.Windows.Forms.TextBox txtNamSanXuat;
@@ -459,6 +467,5 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.DataGridView dgvLoaiXe;
         private System.Windows.Forms.Button btnSua;
-        private System.Windows.Forms.ComboBox cbbLoai;
     }
 }
