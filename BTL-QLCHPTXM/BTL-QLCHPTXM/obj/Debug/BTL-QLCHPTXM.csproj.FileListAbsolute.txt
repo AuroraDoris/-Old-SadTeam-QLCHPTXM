@@ -34,3 +34,11 @@ C:\Users\Eric\Desktop\Phuc\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\
 C:\Users\Eric\Desktop\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\bin\Debug\BTL-QLCHPTXM.exe.config
 C:\Users\Eric\Desktop\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.exe
 C:\Users\Eric\Desktop\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.pdb
+C:\Users\Eric\Desktop\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\bin\Debug\BTL-QLCHPTXM.exe
+C:\Users\Eric\Desktop\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\bin\Debug\BTL-QLCHPTXM.pdb
+C:\Users\Eric\Desktop\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.csprojResolveAssemblyReference.cache
+C:\Users\Eric\Desktop\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL_QLCHPTXM.frmKhachHang.resources
+C:\Users\Eric\Desktop\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL_QLCHPTXM.frmLoaiXe.resources
+C:\Users\Eric\Desktop\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL_QLCHPTXM.frmMain.resources
+C:\Users\Eric\Desktop\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL_QLCHPTXM.Properties.Resources.resources
+C:\Users\Eric\Desktop\SadTeam-QLCHPTXM\BTL-QLCHPTXM\BTL-QLCHPTXM\obj\Debug\BTL-QLCHPTXM.csproj.GenerateResource.Cache

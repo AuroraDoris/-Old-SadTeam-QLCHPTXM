@@ -16,7 +16,7 @@ namespace BTL_QLCHPTXM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLoaiXe());
+            Application.Run(new frmMain());
         }
     }
 }

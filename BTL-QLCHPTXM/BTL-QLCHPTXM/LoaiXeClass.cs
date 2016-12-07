@@ -5,14 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BTL_QLCHPTXM
-{     
+{
     class LoaiXe
     {
         string ma, ten, loai, hang, nguonnhap;
         int phankhoi, namsx;
 
-        public string Ma     
-        {
+        public string Ma
+        {   
             get { return ma; }
             set { ma = value; }
         }

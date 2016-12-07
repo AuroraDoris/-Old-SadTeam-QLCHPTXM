@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace BTL_QLCHPTXM
 {
-    public partial class frmLoaiXe : Form
+    public partial class frmLoaiXe : Form      
     {
         LoaiXeControl lxCtrl = new LoaiXeControl();
         LoaiXe lx = new LoaiXe();

@@ -78,18 +78,21 @@
             this.asdasdToolStripMenuItem.Name = "asdasdToolStripMenuItem";
             this.asdasdToolStripMenuItem.Size = new System.Drawing.Size(273, 34);
             this.asdasdToolStripMenuItem.Text = "Phụ tùng";
+            this.asdasdToolStripMenuItem.Click += new System.EventHandler(this.asdasdToolStripMenuItem_Click);
             // 
             // kháchHàngToolStripMenuItem
             // 
             this.kháchHàngToolStripMenuItem.Name = "kháchHàngToolStripMenuItem";
             this.kháchHàngToolStripMenuItem.Size = new System.Drawing.Size(273, 34);
             this.kháchHàngToolStripMenuItem.Text = "Khách hàng";
+            this.kháchHàngToolStripMenuItem.Click += new System.EventHandler(this.kháchHàngToolStripMenuItem_Click_1);
             // 
             // asdasdToolStripMenuItem1
             // 
             this.asdasdToolStripMenuItem1.Name = "asdasdToolStripMenuItem1";
             this.asdasdToolStripMenuItem1.Size = new System.Drawing.Size(273, 34);
             this.asdasdToolStripMenuItem1.Text = "Loại xe";
+            this.asdasdToolStripMenuItem1.Click += new System.EventHandler(this.asdasdToolStripMenuItem1_Click);
             // 
             // hóaĐơnBánHàngToolStripMenuItem
             // 

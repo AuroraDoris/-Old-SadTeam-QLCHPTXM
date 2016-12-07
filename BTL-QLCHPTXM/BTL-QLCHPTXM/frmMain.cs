@@ -27,5 +27,26 @@ namespace BTL_QLCHPTXM
             cnStr = "Server = .; Database = DatabaseQLCHPTXM; Integrated Security = true";
             cn = new SqlConnection(cnStr);
         }
+
+        private void asdasdToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmLoaiXe frmlx = new frmLoaiXe();
+            frmlx.Show();
+        }
+
+        private void kháchHàngToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            frmKhachHang formkh = new frmKhachHang();
+            formkh.Show();
+        }
+
+        private void asdasdToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPhuTung frmpt = new frmPhuTung();
+            frmpt.Show();
+        }
+
+
+
     }
 }

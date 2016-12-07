@@ -63,12 +63,21 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPhuTung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhuTung.Designer.cs">
+      <DependentUpon>frmPhuTung.cs</DependentUpon>
+    </Compile>
     <Compile Include="KhachHangClass.cs" />
     <Compile Include="KhachHangControl.cs" />
     <Compile Include="KhachHangModify.cs" />
     <Compile Include="LoaiXeClass.cs" />
     <Compile Include="LoaiXeControl.cs" />
     <Compile Include="LoaiXeModify.cs" />
+    <Compile Include="PhuTungClass.cs" />
+    <Compile Include="PhuTungControl.cs" />
+    <Compile Include="PhuTungModify.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmKhachHang.resx">

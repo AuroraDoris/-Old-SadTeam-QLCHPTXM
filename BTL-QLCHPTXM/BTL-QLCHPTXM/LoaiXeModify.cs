@@ -11,8 +11,8 @@ namespace BTL_QLCHPTXM
     class LoaiXeModify
     {
         ConnectToSQL cn = new ConnectToSQL();
-        SqlCommand cmd = new SqlCommand();     
-
+        SqlCommand cmd = new SqlCommand();
+            
         public DataTable GetData()
         {
             DataTable dt = new DataTable();

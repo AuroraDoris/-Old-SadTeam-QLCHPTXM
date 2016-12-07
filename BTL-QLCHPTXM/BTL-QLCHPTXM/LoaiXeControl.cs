@@ -10,9 +10,9 @@ namespace BTL_QLCHPTXM
     class LoaiXeControl
     {
         LoaiXeModify lxMod = new LoaiXeModify();
-             
+
         public DataTable GetData()
-        {
+        {   
             return lxMod.GetData();
         }
 
